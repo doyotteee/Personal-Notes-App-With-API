@@ -101,7 +101,6 @@ function App() {
       <Routes>
         <Route path="/login" element={<LoginPage loginSuccess={onLoginSuccess} />} />
         <Route path="/register" element={<RegisterPage />} />
-        <Route path="*" element={<Navigate to="/login" />} />
       </Routes>
     );
   }
